@@ -1,4 +1,4 @@
-FROM flask-srv:0.0.1
+FROM cgerull/minimal-flask-server:v1.0.1
 # Use alpine based flask-gunicorn image
 
 USER web
