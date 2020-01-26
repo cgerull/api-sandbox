@@ -124,7 +124,7 @@ def read_config(config_file, srv_config):
 def tail_logfile(logfile=''):
     """Read n lines of the logfile"""
     result = "Can't read logfile: {}".format(logfile)
-    lines = 10
+    lines = 40
     with open(logfile) as f:
         # for line in (f.readlines()[-lines:]):
         #     print(line)
